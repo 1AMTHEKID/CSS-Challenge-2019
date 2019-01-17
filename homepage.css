@@ -99,6 +99,10 @@ div#headertext2 p {
 
 /****** Content ******/
 
+/* Wrapper */
+
+
+
 /* Articles */
 
 article.article1 {
@@ -186,15 +190,23 @@ a {
     text-decoration: none;
 }
 
-ul#externallinks {
+ul.externallinks {
     display: block;
     list-style-type: none;
     padding: 0;
     color: #009BFF;
 }
 
-li.externallink {
+li.externallink1 {
+    margin-bottom: 10px;
+}
+
+li#externallink2 {
     margin-bottom: 20px;
+}
+
+a.links1 {
+    color:white;
 }
 
 a.links2{
