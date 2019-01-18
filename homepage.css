@@ -1,22 +1,11 @@
 * {
     box-sizing: border-box;
-    /*border: 1px dotted red;*/
 }
 
 html, body {
     margin: 0;
     padding: 0;
     /*wrapper maken 'cause cool-ness*/
-    /*background-color: white;*/
-}
-
-body {
-    /*margin: 30px;*/
-    /*background-color: lightgray;*/
-    /*height: 100vh;*/
-    /*display: grid;*/
-    /*grid-template-columns: 1fr 1fr 1fr;*/
-    /*grid-template-rows: 120px 40px 290px 290px 40px 140px;*/
 }
 
 /****** Fonts ******/
@@ -59,8 +48,6 @@ h5 {
 
 div#navbar {
     background-color: #3A3A3A;
-    /*grid-column: 1/5;*/
-    /*grid-row: 2;*/
     color: white;
     height:40px;
 }
@@ -362,7 +349,7 @@ div#footer {
     /*grid-row: 6;*/
 }
 
-/* ik weet echt niet wat de fuck ik doe, help*/
+/* ik weet echt niet wat de "sans" ik doe, help*/
 
 /****** Media querys ******/
 
