@@ -76,8 +76,6 @@ div#navbar ul li {
 
 div#header {
     background-color: white;
-    /*grid-column: 1/5;*/
-    /*grid-row: 1;*/
     color: black;
 }
 
@@ -105,7 +103,6 @@ mijn wrapper werkt deels, ugh.*/
 
 div.wrapper {
     display: grid;
-    /*grid-gap: 1em;*/
     max-width: 960px;
     margin: auto;
     grid-template-areas: "header header header" "navbar" "content1" "content2" "content3" "content4" "content5" "content6" "blackline" "footer"
@@ -115,6 +112,11 @@ div.wrapper {
     background-color: lightgray;
     padding: 10px;
     font-size: 100%;
+
+}
+
+article {
+    box-shadow:0px 0px 1px 3px #969696;
 }
 
 #navbar,
@@ -162,7 +164,7 @@ div.wrapper {
     grid-area: footer;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1820px) {
     .wrapper {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "header  header  header" "navbar  navbar  navbar" "content1  content2  content5" "content3  content4  content6" "blackline  blackline  blackline" "footer  footer  footer";
@@ -219,20 +221,20 @@ article#article3 {
 /* Button */
 
 button.buttoninfo {
-    background-color: #009BFF;
-    border-color: #009BFF;
+    /*background-color: #009BFF;*/
+    background-color: #EC112C;
+    /*border-color: #009BFF;*/
+    border-color: #EC112C;
     border: 0;
     padding: 10px;
     width: 105px;
     height: 38px;
     text-align: center;
-    /*width: 38%;*/
-    /*height: auto;*/
 }
 
 button.buttoninfo:hover, buttoninfo:focus {
-    background-color: #03536D;
-    border-color: #03536D;
+    background-color: #BC0F26;
+    border-color: #BC0F26;
 }
 
 a:hover, a:focus {
@@ -242,43 +244,37 @@ a:hover, a:focus {
 /* 1 */
 
 div#content1 {
-    /*grid-column: 1/2;*/
-    /*grid-row: 3;*/
+
 }
 
 /* 2 */
 
 div#content2 {
-    /*grid-column: 2/3;*/
-    /*grid-row: 3;*/
+
 }
 
 /* 3 */
 
 div#content3 {
-    /*grid-column: 1/2;*/
-    /*grid-row: 4;*/
+
 }
 
 /* 4 */
 
 div#content4 {
-    /*grid-column: 2/3;*/
-    /*grid-row: 4;*/
+
 }
 
 /* 5 */
 
 div#content5 {
-    /*grid-column: 3/4;*/
-    /*grid-row: 3;*/
+
 }
 
 /* 6 */
 
 div#content6 {
-    /*grid-column: 3/4;*/
-    /*grid-row: 4;*/
+
 }
 
 /****** External & internal links *******/
@@ -291,7 +287,8 @@ ul.externallinks {
     display: block;
     list-style-type: none;
     padding: 0;
-    color: #009BFF;
+    /*color: #009BFF;*/
+    color: #BC0F26;
 }
 
 li.externallink1 {
@@ -307,7 +304,8 @@ a.links1 {
 }
 
 a.links2 {
-    color: #07BDFF;
+    /*color: #07BDFF;*/
+    color: #EC112C;
 }
 
 /****** Footer ******/
@@ -315,28 +313,11 @@ a.links2 {
 div#blackline {
     background-color: #3A3A3A;
     height: 40px;
-    /*grid-column: 1/4;*/
-    /*grid-row: 5;*/
 }
 
 div#footer {
     background-color: lightgrey;
     height: 100px;
-    /*grid-column: 1/4;*/
-    /*grid-row: 6;*/
 }
 
 /* ik weet echt niet wat de "sans" ik doe, help*/
-
-/****** Media querys ******/
-
-/*@media all and (max-width: 968px) {*/
-/*body {*/
-/*margin: 30px;*/
-/*background-color: lightgray;*/
-/*height: 100vh;*/
-/*display: grid;*/
-/*grid-template-columns: 1fr 1fr;*/
-/*grid-template-rows: 120px 40px 290px 290px 40px 140px;*/
-/*}*/
-/*}*/
