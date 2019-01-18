@@ -232,13 +232,24 @@ button.buttoninfo {
     text-align: center;
 }
 
-button.buttoninfo:hover, buttoninfo:focus {
+button.buttoninfo:hover, button.buttoninfo:focus {
     background-color: #BC0F26;
     border-color: #BC0F26;
 }
 
+p.buttoncolor{
+    color:white;
+    margin-top: 0;
+    margin-right: 0;
+}
+
 a:hover, a:focus {
     text-decoration: underline;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
 }
 
 /* 1 */
